@@ -1,0 +1,46 @@
+.theimgss
+{
+    width:200px !important;
+
+}
+.info
+{
+    width:100%;
+    padding: 8px 0;
+    background: rgba(0,0,0,0.0);
+    position:absolute;
+    bottom:0;
+    text-align: justify;
+    border-radius:  0 0 5px 5px;
+}
+.theimgss:hover{
+    
+
+    box-shadow: 0px 15px 8px -2px rgba(150, 150, 150, 0.47);
+cursor: pointer;
+width: 18rem;
+}
+/* creating an on hover shadow effect*/
+.card-hover .view{
+    left: 0;
+    top: 2px;
+    width: 70%;
+    height: 65%;
+    opacity: 0;
+    display:flex;
+    color:white;
+    position:absolute;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    transition: opacity 0.3s ease-in;
+}
+.card-hover:hover{
+    transform: scale(1.05);
+   
+}
+.card-hover:hover .view{
+    opacity: 1;
+    box-shadow: 0px 15px 8px -2px rgba(150, 150, 150, 0.021); ;
+}

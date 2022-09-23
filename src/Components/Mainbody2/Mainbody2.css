@@ -1,0 +1,36 @@
+.some 
+{
+    font-weight: bold !important;
+    font-size:larger !important;
+}
+.logos
+{
+    width:80px !important;
+
+}
+@media only screen and (max-width: 600px) {
+    .content
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .content2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 5px;
+        row-gap: 100px;
+    }
+    .logos{
+        width:30px !important;
+    }
+    .some{
+        font-size: small !important;
+    }
+}

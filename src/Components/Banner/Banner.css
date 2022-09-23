@@ -1,0 +1,51 @@
+.bigholder
+{
+background-color: rgba(17, 49, 39, 0.911);
+height: 100%;
+background-size: cover;
+border-radius: 1rem !important;
+margin-top: 150px;
+}
+.attire
+{
+    padding-left: 20px!important;
+}
+.vans
+{
+    margin-top: -250px !important;
+}
+.vansimg{
+    width:500px !important;
+}
+@media only screen and (max-width: 600px) {
+    .vans
+{
+   
+    margin-top: 0px !important;
+}
+.vansimg
+{
+    width:200px !important;
+    margin-top: -70px !important;
+   
+}
+.bigholder{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+padding-left: 0px;
+}
+.bigrow
+{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+.attire p h1
+{
+    font-size: smaller !important;
+}
+.attire{
+    text-align: center;
+    padding-left: 10px!important;
+}
+}
